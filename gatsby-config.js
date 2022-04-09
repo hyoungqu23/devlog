@@ -1,6 +1,7 @@
 const metaConfig = require("./site-meta-config")
 
 module.exports = {
+  pathPrefix: "/hyoungqu23.github.io",
   siteMetadata: metaConfig,
   plugins: [
     `gatsby-plugin-image`,
