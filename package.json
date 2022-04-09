@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "HyoungMin's minilog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Junior Front-End Developers Quenching Every Day",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "HyoungMin <hyoungqu23@gmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
@@ -42,7 +42,7 @@
   "license": "0BSD",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/hyoungqu23/hyoungqu23.github.io.git"
   },
   "scripts": {
     "build": "gatsby build",
