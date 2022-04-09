@@ -1,5 +1,5 @@
 module.exports = {
-  title: `HyoungMin's minilog`,
+  title: `HyoungMin's mini-log`,
   subtitle: `Junior Front-End Developers Quenching Every Day`,
   description: `Harden and sharpen skills every day and every night.`,
   author: {
