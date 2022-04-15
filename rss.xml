@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Harden and sharpen skills every day and every night.]]></description><link>https://hyoungqu23.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 13 Apr 2022 14:35:08 GMT</lastBuildDate><item><title><![CDATA[[Elice] SW 엔지니어 트랙 2기 7일차 mini-log]]></title><description><![CDATA[JavaScript 주요 개념 변수 변수는 데이터를 담는 공간을 의미한다. , 로 변수를 생성할 수 있지만, 보통 이 권장된다. String DataType의 Method 문자열 메서드로는 , ,  등이 있다. 참고 Number DataType…]]></description><link>https://hyoungqu23.github.io/20220412_elice/</link><guid isPermaLink="false">https://hyoungqu23.github.io/20220412_elice/</guid><pubDate>Tue, 12 Apr 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h1&gt;JavaScript 주요 개념&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Harden and sharpen skills every day and every night.]]></description><link>https://hyoungqu23.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 15 Apr 2022 14:49:58 GMT</lastBuildDate><item><title><![CDATA[[Elice] SW 엔지니어 트랙 2기 7일차 mini-log]]></title><description><![CDATA[JavaScript 주요 개념 변수 변수는 데이터를 담는 공간을 의미한다. , 로 변수를 생성할 수 있지만, 보통 이 권장된다. String DataType의 Method 문자열 메서드로는 , ,  등이 있다. 참고 Number DataType…]]></description><link>https://hyoungqu23.github.io/2022-04-12/</link><guid isPermaLink="false">https://hyoungqu23.github.io/2022-04-12/</guid><pubDate>Tue, 12 Apr 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h1&gt;JavaScript 주요 개념&lt;/h1&gt;
 &lt;h2&gt;변수&lt;/h2&gt;
 &lt;p&gt;변수는 데이터를 담는 공간을 의미한다. &lt;code class=&quot;language-text&quot;&gt;let&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;var&lt;/code&gt;로 변수를 생성할 수 있지만, 보통 &lt;code class=&quot;language-text&quot;&gt;let&lt;/code&gt;이 권장된다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; num
@@ -144,7 +144,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         reverStr &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; str&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;charAt&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; reverStr
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[Elice] SW 엔지니어 트랙 2기 8일차 mini-log]]></title><description><![CDATA[JavaScript 이해 Review 으로 버전 관리하는 것은 좋지 않다. 데이터베이스의 중요한 정보가 버전 관리 될 수 있기 때문이다. 결국, 하나하나 파일을 확인하고 Staging하여 Commit해야 한다.(ignore…]]></description><link>https://hyoungqu23.github.io/20220413_elice/</link><guid isPermaLink="false">https://hyoungqu23.github.io/20220413_elice/</guid><pubDate>Tue, 12 Apr 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h1&gt;JavaScript 이해&lt;/h1&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[Elice] SW 엔지니어 트랙 2기 8일차 mini-log]]></title><description><![CDATA[JavaScript 이해 Review 으로 버전 관리하는 것은 좋지 않다. 데이터베이스의 중요한 정보가 버전 관리 될 수 있기 때문이다. 결국, 하나하나 파일을 확인하고 Staging하여 Commit해야 한다.(ignore…]]></description><link>https://hyoungqu23.github.io/2022-04-13/</link><guid isPermaLink="false">https://hyoungqu23.github.io/2022-04-13/</guid><pubDate>Tue, 12 Apr 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h1&gt;JavaScript 이해&lt;/h1&gt;
 &lt;h2&gt;Review&lt;/h2&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git add .&lt;/code&gt;으로 버전 관리하는 것은 좋지 않다. 데이터베이스의 중요한 정보가 버전 관리 될 수 있기 때문이다. 결국, 하나하나 파일을 확인하고 Staging하여 Commit해야 한다.(ignore 필요)
 &lt;code class=&quot;language-text&quot;&gt;git commit -a &quot;message&quot;&lt;/code&gt;: 한 번은 명확하게 &lt;code class=&quot;language-text&quot;&gt;add&lt;/code&gt;해야 활용할 수 있는 옵션으로, 자동으로 &lt;code class=&quot;language-text&quot;&gt;add&lt;/code&gt; 하게 하는 옵션이다.
@@ -287,7 +287,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;p&gt;함수는 입력 값(parameter?)에 따라서 다른 값을 반환한다.&lt;/p&gt;
 &lt;p&gt;입력 값의 기본 값을 설정할 수 있다.&lt;/p&gt;
 &lt;h3&gt;함수의 출력&lt;/h3&gt;
-&lt;p&gt;return 키워드를 통해 반환(출력) 값을 설정할 수 있다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[Elice] SW 엔지니어 트랙 2기 6일차 mini-log]]></title><description><![CDATA[JavaScript 시작하기 JavaScript HTML보다 JavaScript가 동적인 언어이다. JavaScript…]]></description><link>https://hyoungqu23.github.io/20220411_elice/</link><guid isPermaLink="false">https://hyoungqu23.github.io/20220411_elice/</guid><pubDate>Mon, 11 Apr 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h1&gt;JavaScript 시작하기&lt;/h1&gt;
+&lt;p&gt;return 키워드를 통해 반환(출력) 값을 설정할 수 있다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[Elice] SW 엔지니어 트랙 2기 6일차 mini-log]]></title><description><![CDATA[JavaScript 시작하기 JavaScript HTML보다 JavaScript가 동적인 언어이다. JavaScript…]]></description><link>https://hyoungqu23.github.io/2022-04-11/</link><guid isPermaLink="false">https://hyoungqu23.github.io/2022-04-11/</guid><pubDate>Mon, 11 Apr 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h1&gt;JavaScript 시작하기&lt;/h1&gt;
 &lt;h2&gt;JavaScript&lt;/h2&gt;
 &lt;p&gt;HTML보다 JavaScript가 동적인 언어이다. JavaScript는 웹 페이지에 생동감을 부여하기 위한 프로그래밍 언어로, 기본적으로 안전한 프로그래밍 언어이다.&lt;/p&gt;
 &lt;p&gt;예를 들어, 페이지에 새로운 HTML을 추가하거나, 기존의 HTML, CSS를 수정하거나 Mouse, Keyboard 등 사용자의 행동에 따라 반응하는 등의 일을 JavaScript를 통해 할 수 있다.&lt;/p&gt;
@@ -413,7 +413,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;do { 동작문 } while (condition);&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[[Elice] SW 엔지니어 트랙 2기 5일차 mini-log]]></title><description><![CDATA[Git 00. Git을 사용하는 이유 효율적인 협업을 위해 Git…]]></description><link>https://hyoungqu23.github.io/20220408_elice/</link><guid isPermaLink="false">https://hyoungqu23.github.io/20220408_elice/</guid><pubDate>Fri, 08 Apr 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h1&gt;Git&lt;/h1&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[[Elice] SW 엔지니어 트랙 2기 5일차 mini-log]]></title><description><![CDATA[Git 00. Git을 사용하는 이유 효율적인 협업을 위해 Git…]]></description><link>https://hyoungqu23.github.io/2022-04-10/</link><guid isPermaLink="false">https://hyoungqu23.github.io/2022-04-10/</guid><pubDate>Fri, 08 Apr 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h1&gt;Git&lt;/h1&gt;
 &lt;h2&gt;00. Git을 사용하는 이유&lt;/h2&gt;
 &lt;h3&gt;효율적인 협업을 위해 Git을 사용한다.&lt;/h3&gt;
 &lt;p&gt;여러 개발자가 동시에 작업을 하는 과정에서, 각각 개발자가 업로드한 버전이 다르기 때문에 한 개발자가 변경한 버전이 사라질 수도 있고, 동시에 하나의 파일을 수정하는 경우 각 개발자가 수정한 파일을 하나로 병합할 필요성이 있다.&lt;/p&gt;
@@ -623,7 +623,7 @@ git merge origin/master&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git remote add origin 원격 저장소 주소&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;위 명령어는 원격 저장소의 단축 이름을 &lt;code class=&quot;language-text&quot;&gt;origin&lt;/code&gt;으로 설정하는 것이다. 다른 이름으로 지정할 수도 있다. 다만, 기본적으로 만들어진 원격 저장소 이름은 &lt;code class=&quot;language-text&quot;&gt;origin&lt;/code&gt;이 기본값이기 때문에 복사한 저장소도 &lt;code class=&quot;language-text&quot;&gt;origin&lt;/code&gt;으로 통일된다. 이때 &lt;code class=&quot;language-text&quot;&gt;-v&lt;/code&gt; 옵션을 통해 지정한 저장소의 이름과 주소를 함께 볼 수 있다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git remote -v&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[Elice] SW 엔지니어 트랙 2기 4일차 mini-log]]></title><description><![CDATA[애니메이션과 반응형 웹 사이트의 이해 움직이는 웹 사이트 제작  MDN, W3S
-선택된 요소에 회전, 확대/축소, 기울이기, 이동 등의 효과를 부여하는 속성. CSS3에서만 가능하므로, 브라우저 하위 버전에서는 prefix…]]></description><link>https://hyoungqu23.github.io/20220407_elice/</link><guid isPermaLink="false">https://hyoungqu23.github.io/20220407_elice/</guid><pubDate>Thu, 07 Apr 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h1&gt;애니메이션과 반응형 웹 사이트의 이해&lt;/h1&gt;
+선택된 요소에 회전, 확대/축소, 기울이기, 이동 등의 효과를 부여하는 속성. CSS3에서만 가능하므로, 브라우저 하위 버전에서는 prefix…]]></description><link>https://hyoungqu23.github.io/2022-04-07/</link><guid isPermaLink="false">https://hyoungqu23.github.io/2022-04-07/</guid><pubDate>Thu, 07 Apr 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h1&gt;애니메이션과 반응형 웹 사이트의 이해&lt;/h1&gt;
 &lt;h2&gt;움직이는 웹 사이트 제작&lt;/h2&gt;
 &lt;h3&gt;&lt;code class=&quot;language-text&quot;&gt;transform&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/CSS/transform&quot;&gt;MDN&lt;/a&gt;, &lt;a href=&quot;https://www.w3schools.com/cssref/css3_pr_transform.asp&quot;&gt;W3S&lt;/a&gt;
@@ -698,7 +698,7 @@ CSS에서 미리 만들어 둔 클래스로, 특정 조건을 의미한다.&lt;/
         &lt;span class=&quot;token property&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 300px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
         &lt;span class=&quot;token property&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; none&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[Elice] SW 엔지니어 트랙 2기 3일차 mini-log]]></title><description><![CDATA[CSS 처음에는 디자인을 하는 태그를 만들었다.( 등) HTML은 정보를 다루고, WEB은 정보인데, 디자인을 위한 태그들의 등장으로 가치가 떨어졌다. 결국, 디자인을 하는 언어를 새로 만들었다. 이렇게 만들어진 CSS의 등장으로 인해 HTML…]]></description><link>https://hyoungqu23.github.io/20220406_elice/</link><guid isPermaLink="false">https://hyoungqu23.github.io/20220406_elice/</guid><pubDate>Wed, 06 Apr 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h1&gt;CSS&lt;/h1&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[Elice] SW 엔지니어 트랙 2기 3일차 mini-log]]></title><description><![CDATA[CSS 처음에는 디자인을 하는 태그를 만들었다.( 등) HTML은 정보를 다루고, WEB은 정보인데, 디자인을 위한 태그들의 등장으로 가치가 떨어졌다. 결국, 디자인을 하는 언어를 새로 만들었다. 이렇게 만들어진 CSS의 등장으로 인해 HTML…]]></description><link>https://hyoungqu23.github.io/2022-04-06/</link><guid isPermaLink="false">https://hyoungqu23.github.io/2022-04-06/</guid><pubDate>Wed, 06 Apr 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h1&gt;CSS&lt;/h1&gt;
 &lt;p&gt;처음에는 디자인을 하는 태그를 만들었다.(&lt;code class=&quot;language-text&quot;&gt;&amp;lt;font&gt;&lt;/code&gt; 등) HTML은 정보를 다루고, WEB은 정보인데, 디자인을 위한 태그들의 등장으로 가치가 떨어졌다.&lt;/p&gt;
 &lt;p&gt;결국, 디자인을 하는 언어를 새로 만들었다. 이렇게 만들어진 CSS의 등장으로 인해 HTML의 정보적 기능을 온전히 보존하고 디자인 기능을 별도로 분리할 수 있었다.&lt;/p&gt;
 &lt;h2&gt;CSS 기본 문법&lt;/h2&gt;
@@ -740,7 +740,7 @@ CSS에서 미리 만들어 둔 클래스로, 특정 조건을 의미한다.&lt;/
 &lt;p&gt;&lt;a href=&quot;https://getbootstrap.com/&quot;&gt;참고 - bootstrap(반응형)&lt;/a&gt;
 &lt;a href=&quot;https://jsbin.com/?html,css,output&quot;&gt;참고 - 코드 공유&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[Elice] SW 엔지니어 트랙 2기 2일차 mini-log]]></title><description><![CDATA[웹 사이트의 이해 웹을 구성하는 요소 HTML: 웹 사이트의 정보를 표기하고 그 구조를 설계
 CSS: 웹 사이트의 디자인과 스타일링
-JavaScript…]]></description><link>https://hyoungqu23.github.io/20220405_elice/</link><guid isPermaLink="false">https://hyoungqu23.github.io/20220405_elice/</guid><pubDate>Tue, 05 Apr 2022 23:11:32 GMT</pubDate><content:encoded>&lt;h1&gt;웹 사이트의 이해&lt;/h1&gt;
+JavaScript…]]></description><link>https://hyoungqu23.github.io/2022-04-05/</link><guid isPermaLink="false">https://hyoungqu23.github.io/2022-04-05/</guid><pubDate>Tue, 05 Apr 2022 23:11:32 GMT</pubDate><content:encoded>&lt;h1&gt;웹 사이트의 이해&lt;/h1&gt;
 &lt;h2&gt;웹을 구성하는 요소&lt;/h2&gt;
 &lt;p&gt;HTML: 웹 사이트의 정보를 표기하고 그 구조를 설계
 CSS: 웹 사이트의 디자인과 스타일링
@@ -1507,7 +1507,7 @@ Block Elements와 Inline Elements의 성격을 바꿀 때 사용한다. &lt;code
   &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;article&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;right&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;article&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
   &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;footer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;footer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;body&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;html&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[Elice] SW 엔지니어 트랙 2기 1일차 mini-log]]></title><description><![CDATA[웹 프로그래밍 HTML 태그(Tags)의 이해 MDN HTML의 Tag…]]></description><link>https://hyoungqu23.github.io/20220404_elice/</link><guid isPermaLink="false">https://hyoungqu23.github.io/20220404_elice/</guid><pubDate>Mon, 04 Apr 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h1&gt;웹 프로그래밍&lt;/h1&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;html&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[Elice] SW 엔지니어 트랙 2기 1일차 mini-log]]></title><description><![CDATA[웹 프로그래밍 HTML 태그(Tags)의 이해 MDN HTML의 Tag…]]></description><link>https://hyoungqu23.github.io/2022-04-04/</link><guid isPermaLink="false">https://hyoungqu23.github.io/2022-04-04/</guid><pubDate>Mon, 04 Apr 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h1&gt;웹 프로그래밍&lt;/h1&gt;
 &lt;h2&gt;HTML 태그(Tags)의 이해&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/HTML/Element&quot;&gt;MDN&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;WWW is &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;strong&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;World &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;u&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Wide&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;u&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt; WEB&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;strong&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -1604,222 +1604,56 @@ IP 주소는 0~255 사이의 숫자 4개가 &lt;code class=&quot;language-text&q
 &lt;p&gt;&lt;a href=&quot;https://www.w3schools.com/colors/colors_picker.asp&quot;&gt;참고 - color picker&lt;/a&gt;
 &lt;a href=&quot;https://developer.mozilla.org/ko/docs/Learn/CSS/Building_blocks/Values_and_units&quot;&gt;참고 - &lt;code class=&quot;language-text&quot;&gt;em&lt;/code&gt;&lt;/a&gt; 반응형 웹 사이트 제작에 보통 활용한다.
 &lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/CSS/font-size&quot;&gt;참고 &lt;code class=&quot;language-text&quot;&gt;font-size&lt;/code&gt;&lt;/a&gt; 데스크탑은 16px, 모바일은 12px이 평균적이다.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.w3schools.com/cssref/css_colors.asp&quot;&gt;CSS Colors&lt;/a&gt; &lt;code class=&quot;language-text&quot;&gt;Hex&lt;/code&gt; , &lt;code class=&quot;language-text&quot;&gt;RGB&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;HSL&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;Color Names&lt;/code&gt; 총 네 가지 방식으로 표현할 수 있다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to use Markdown]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…]]></description><link>https://hyoungqu23.github.io/20220403_basic/</link><guid isPermaLink="false">https://hyoungqu23.github.io/20220403_basic/</guid><pubDate>Sun, 03 Apr 2022 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
-&lt;p&gt;I’m sure I’ll write a lot more interesting things in the future.&lt;/p&gt;
-&lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A salted duck egg is a Chinese preserved food product made by soaking duck
-eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-charcoal paste. The eggs may also be sold with the salted paste removed,
-wrapped in plastic, and vacuum packed. From the salt curing process, the
-salted duck eggs have a briny aroma, a gelatin-like egg white and a
-firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 75.31645569620254%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dWC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACERJC/9oACAEBAAEFAkqW7B5Zovtvk//EABcRAQADAAAAAAAAAAAAAAAAAAAREkH/2gAIAQMBAT8B1WX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAESL/2gAIAQIBAT8BjT//xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIRISIxMv/aAAgBAQAGPwK9GNocyS8hCj//xAAaEAADAQEBAQAAAAAAAAAAAAAAAREhQYGx/9oACAEBAAE/IXOrA43oOyg9wgU86OZMfwZKypT/2gAMAwEAAgADAAAAEMjv/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxARwyusv//EABcRAQEBAQAAAAAAAAAAAAAAAAEAIVH/2gAIAQIBAT8QOoVoX//EAB0QAQEAAgIDAQAAAAAAAAAAAAERADFhgSFB0eH/2gAIAQEAAT8QSpwaGjrBSrtHyF9iY8RpUnGRBGqtOcsiDE6fM3AgiXf5M//Z&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Chinese Salty Egg&quot;
-        title=&quot;Chinese Salty Egg&quot;
-        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/828fb/salty_egg.jpg&quot;
-        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/ff44c/salty_egg.jpg 158w,
-/static/8058f3f26913fea3b6a89a73344fe94a/a6688/salty_egg.jpg 315w,
-/static/8058f3f26913fea3b6a89a73344fe94a/828fb/salty_egg.jpg 630w,
-/static/8058f3f26913fea3b6a89a73344fe94a/0ede0/salty_egg.jpg 945w,
-/static/8058f3f26913fea3b6a89a73344fe94a/3ac88/salty_egg.jpg 1260w,
-/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg 2048w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;You can also write code blocks here!&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; saltyDuckEgg &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;chinese preserved food product&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;left&quot;&gt;Number&lt;/th&gt;
-&lt;th align=&quot;left&quot;&gt;Title&lt;/th&gt;
-&lt;th align=&quot;right&quot;&gt;Year&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;1&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;Harry Potter and the Philosopher’s Stone&lt;/td&gt;
-&lt;td align=&quot;right&quot;&gt;2001&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;2&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;Harry Potter and the Chamber of Secrets&lt;/td&gt;
-&lt;td align=&quot;right&quot;&gt;2002&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;3&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;Harry Potter and the Prisoner of Azkaban&lt;/td&gt;
-&lt;td align=&quot;right&quot;&gt;2004&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;a href=&quot;https://raw.github.com/adamschwartz/github-markdown-kitchen-sink/master/README.md&quot;&gt;View raw (TEST.md)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This is a paragraph.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;This is a paragraph.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h1&gt;Header 1&lt;/h1&gt;
-&lt;h2&gt;Header 2&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Header 1
-========
-
-Header 2
---------&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h1&gt;Header 1&lt;/h1&gt;
-&lt;h2&gt;Header 2&lt;/h2&gt;
-&lt;h3&gt;Header 3&lt;/h3&gt;
-&lt;h4&gt;Header 4&lt;/h4&gt;
-&lt;h5&gt;Header 5&lt;/h5&gt;
-&lt;h6&gt;Header 6&lt;/h6&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# Header 1
-## Header 2
-### Header 3
-#### Header 4
-##### Header 5
-###### Header 6&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h1&gt;Header 1&lt;/h1&gt;
-&lt;h2&gt;Header 2&lt;/h2&gt;
-&lt;h3&gt;Header 3&lt;/h3&gt;
-&lt;h4&gt;Header 4&lt;/h4&gt;
-&lt;h5&gt;Header 5&lt;/h5&gt;
-&lt;h6&gt;Header 6&lt;/h6&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# Header 1 #
-## Header 2 ##
-### Header 3 ###
-#### Header 4 ####
-##### Header 5 #####
-###### Header 6 ######&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&gt; Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-&lt;h2&gt;This is a header.&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.w3schools.com/cssref/css_colors.asp&quot;&gt;CSS Colors&lt;/a&gt; &lt;code class=&quot;language-text&quot;&gt;Hex&lt;/code&gt; , &lt;code class=&quot;language-text&quot;&gt;RGB&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;HSL&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;Color Names&lt;/code&gt; 총 네 가지 방식으로 표현할 수 있다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsby Blog Documentation]]></title><description><![CDATA[공부하면서 하나하나 블로그에 세련됨을 추가할 수 있게끔 기록하면서 티끌 모아 태산을 경험하고자 한다. 개발 환경 설정 Gatsby…]]></description><link>https://hyoungqu23.github.io/2022-04-03/gastby_docs/</link><guid isPermaLink="false">https://hyoungqu23.github.io/2022-04-03/gastby_docs/</guid><pubDate>Sun, 03 Apr 2022 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;공부하면서 하나하나 블로그에 세련됨을 추가할 수 있게끔 기록하면서 티끌 모아 태산을 경험하고자 한다.&lt;/p&gt;
+&lt;h2&gt;개발 환경 설정&lt;/h2&gt;
+&lt;h3&gt;Gatsby 개발에 있어 필요한 지식들&lt;/h3&gt;
+&lt;p&gt;솔직히 말하자면, 제대로 아는 건 없다고 본다. 다만, 나는 꾸준하게 성장할 예정이므로 상관 없다.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;This is the first list item.&lt;/li&gt;
-&lt;li&gt;This is the second list item.&lt;/li&gt;
+&lt;li&gt;HTML&lt;/li&gt;
+&lt;li&gt;CSS&lt;/li&gt;
+&lt;li&gt;JavaScript&lt;/li&gt;
+&lt;li&gt;Command Line&lt;/li&gt;
+&lt;li&gt;React&lt;/li&gt;
+&lt;li&gt;GraphQL&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Here’s some example code:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Markdown.generate();&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Gatsby 설치&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://nodejs.org/ko/&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Node.js&lt;/code&gt;&lt;/a&gt;(와 함께 package manager &lt;code class=&quot;language-text&quot;&gt;npm&lt;/code&gt;), &lt;a href=&quot;https://gitforwindows.org/&quot;&gt;Git&lt;/a&gt;를 설치한 후 Gatsby site를 개발하기 위한 명령을 실행할 수 있는 &lt;code class=&quot;language-text&quot;&gt;Gatsby-CLI&lt;/code&gt;를 설치해야 한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install -g gatsby-cli&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;설치가 완료되면, 올바른 버전이 설치되었는지 확인해보자!&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby --version&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;사용 가능한 다른 명령어들은 다음 명령어를 통해 확인할 수 있다는 점 잊지 말자!&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby --help&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Gatsby-blog-starter를 활용한 첫 프로젝트 생성&lt;/h3&gt;
+&lt;p&gt;starter를 선택한 후 다음 명령어로 프로젝트를 생성할 수 있다. 참고로 설정한 프로젝트 이름으로 디렉토리가 생성되는 점을 잊지 말아야 한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby new {your-project-name} {link-to-starter}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이후 다음 명령어로 로컬 서버에서 프로젝트를 실행할 수 있다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;cd {your-project-name}
+gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Gatsby Blog 시작하기]]></title><description><![CDATA[Gatsby를 선택한 이유. 를 선택한 이유에는 특별함은 없다. 단지 만들어져 있는 블로그(, ,  …)는 실력이 늘어감에 따라 부족한 부분을 커스터마이징하지 못할 것 같아 제외했고, 은 단순히 ruby…]]></description><link>https://hyoungqu23.github.io/2022-04-02/gatsby_start/</link><guid isPermaLink="false">https://hyoungqu23.github.io/2022-04-02/gatsby_start/</guid><pubDate>Sat, 02 Apr 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h2&gt;Gatsby를 선택한 이유.&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Gatsby&lt;/code&gt;를 선택한 이유에는 특별함은 없다. 단지 만들어져 있는 블로그(&lt;code class=&quot;language-text&quot;&gt;Naver&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;Tistory&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;Velog&lt;/code&gt; …)는 실력이 늘어감에 따라 부족한 부분을 커스터마이징하지 못할 것 같아 제외했고, &lt;code class=&quot;language-text&quot;&gt;Jekyll&lt;/code&gt;은 단순히 ruby 기반이기에 제외했다. 결국 남아 있는 것은 &lt;code class=&quot;language-text&quot;&gt;Gatsby&lt;/code&gt;였고, 내 미천한 실력과 함께 성장해나갈 동료가 되기로 했다!&lt;/p&gt;
+&lt;p&gt;그렇다해도 Gatsby의 특징을 살펴보면, 여러 부분에서 마음에 든다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;React를 기반으로 한 정적 사이트 생성기이기 때문에 프론트엔드 개발자를 꿈꾸는 나에게 React를 공부하게끔 할 수 있다.&lt;/li&gt;
+&lt;li&gt;문서화가 잘 되어 쉽게 문제를 해결할 수 있는 정보를 찾을 수 있다.&lt;/li&gt;
+&lt;li&gt;다양한 테마가 존재해 선택할 수 있다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;다만, 다른 세련된 테마들을 거르고, 기본 Gatsby-blog-starter를 선택한 이유는 단순 변심이었다. 처음에는 세련되고 깔끔한 다른 테마를 활용해 쉽게 꾸미고 싶었지만, 그렇게 하면 단순히 글만 쓰는 데 치중하게 될 것 같았다. 그래서 결국 나는 이 블로그를 &lt;code class=&quot;language-text&quot;&gt;나&lt;/code&gt;라고 생각하기로 했다. 그니까 나와 함께 발전하면서 블로그가 세련되어 지기를 바라는 마음에서 선택했다.😎&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;업데이트 기록&lt;/h2&gt;
+&lt;h3&gt;2022.04.02&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Gatsby Blog 시작&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&gt; ## This is a header.
-&gt; 1. This is the first list item.
-&gt; 2. This is the second list item.
-&gt;
-&gt; Here&apos;s some example code:
-&gt;
-&gt;     Markdown.generate();&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;Red&lt;/li&gt;
-&lt;li&gt;Green&lt;/li&gt;
-&lt;li&gt;Blue&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;Red&lt;/li&gt;
-&lt;li&gt;Green&lt;/li&gt;
-&lt;li&gt;Blue&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;Red&lt;/li&gt;
-&lt;li&gt;Green&lt;/li&gt;
-&lt;li&gt;Blue&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markdown&quot;&gt;&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; Red
-&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; Green
-&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; Blue
-
-&lt;span class=&quot;token list punctuation&quot;&gt;*&lt;/span&gt; Red
-&lt;span class=&quot;token list punctuation&quot;&gt;*&lt;/span&gt; Green
-&lt;span class=&quot;token list punctuation&quot;&gt;*&lt;/span&gt; Blue
-
-&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; Red
-&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; Green
-&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; Blue&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;code goes&lt;/code&gt; here in this line&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;bold&lt;/strong&gt; goes here&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markdown&quot;&gt;&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token code-snippet code keyword&quot;&gt;`code goes`&lt;/span&gt; here in this line
-&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token bold&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;token content&quot;&gt;bold&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;**&lt;/span&gt;&lt;/span&gt; goes here&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ol&gt;
-&lt;li&gt;Buy flour and salt&lt;/li&gt;
-&lt;li&gt;Mix together with water&lt;/li&gt;
-&lt;li&gt;Bake&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markdown&quot;&gt;&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&lt;span class=&quot;token list punctuation&quot;&gt;1.&lt;/span&gt; Buy flour and salt
-&lt;span class=&quot;token list punctuation&quot;&gt;1.&lt;/span&gt; Mix together with water
-&lt;span class=&quot;token list punctuation&quot;&gt;1.&lt;/span&gt; Bake&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;code goes&lt;/code&gt; here in this line&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;bold&lt;/strong&gt; goes here&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markdown&quot;&gt;&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&lt;span class=&quot;token list punctuation&quot;&gt;1.&lt;/span&gt; &lt;span class=&quot;token code-snippet code keyword&quot;&gt;`code goes`&lt;/span&gt; here in this line
-&lt;span class=&quot;token list punctuation&quot;&gt;1.&lt;/span&gt; &lt;span class=&quot;token bold&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;token content&quot;&gt;bold&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;**&lt;/span&gt;&lt;/span&gt; goes here&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Paragraph:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Code&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;!-- --&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Paragraph:
-
-    Code&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;* * *
-
-***
-
-*****
-
-- - -
-
----------------------------------------&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;This is &lt;a href=&quot;http://example.com&quot; title=&quot;Example&quot;&gt;an example&lt;/a&gt; link.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://example.com&quot;&gt;This link&lt;/a&gt; has no title attr.&lt;/p&gt;
-&lt;p&gt;This is &lt;a href=&quot;http://example.com&quot; title=&quot;Optional Title&quot;&gt;an example&lt;/a&gt; reference-style link.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;This is [an example](http://example.com &quot;Example&quot;) link.
-
-[This link](http://example.com) has no title attr.
-
-This is [an example] [id] reference-style link.
-
-[id]: http://example.com &quot;Optional Title&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;em&gt;single asterisks&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;single underscores&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;double asterisks&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;double underscores&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;*single asterisks*
-
-_single underscores_
-
-**double asterisks**
-
-__double underscores__&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;This paragraph has some &lt;code class=&quot;language-text&quot;&gt;code&lt;/code&gt; in it.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;This paragraph has some `code` in it.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;https://placehold.it/200x50&quot; alt=&quot;Alt Text&quot; title=&quot;Image Title&quot;&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![Alt Text](https://placehold.it/200x50 &quot;Image Title&quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
+&lt;h3&gt;2022.04.03&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Profile-image, Title 등 프로필 관련 사항 수정&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;meta-data(site-meta-config) 관련 사항 수정&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Code Block 테마(`prism-okaidia) 변경&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;2022.04.04&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;slug를 위한 디렉토리 구조 수정&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item></channel></rss>
