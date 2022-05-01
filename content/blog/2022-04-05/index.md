@@ -1,16 +1,16 @@
 ---
-title: [Elice] SW 엔지니어 트랙 2기 2일차 mini-log
-date: "2022-04-05T23:11:32.169Z"
+title: "[Elice SW 2기] mini-log #002 : HTML, CSS, 그리고 웹 사이트의 이해"
+date : "2022-04-05T23:11:32.169Z"
 description: Elice, SW, WEB, Frontend, Bootcamp, 이고잉, HTML, CSS,  reponsive, layout, boxmodel
 ---
-# 웹 사이트의 이해
+## 웹 사이트의 이해
 
-## 웹을 구성하는 요소
-HTML: 웹 사이트의 정보를 표기하고 그 구조를 설계
-CSS: 웹 사이트의 디자인과 스타일링
-JavaScript: 웹 사이트의 동적인 효과를 부여(슬라이드, 팝업 등)
+### 웹을 구성하는 요소
+`HTML`: 웹 사이트의 정보를 표기하고 그 구조를 설계<br />
+`CSS`: 웹 사이트의 디자인과 스타일링<br />
+`JavaScript`: 웹 사이트의 동적인 효과를 부여(슬라이드, 팝업 등)
 
-## 웹 사이트 제작 시 고려 사항
+### 웹 사이트 제작 시 고려 사항
 1. **웹 표준**
    웹에서 요구하는 공식 표준이나 기술 규격을 만족하는 지 여부, 준수하면 구글에서 검색될 가능성이 높아진다.
 2. **웹 접근성**
@@ -32,27 +32,29 @@ JavaScript: 웹 사이트의 동적인 효과를 부여(슬라이드, 팝업 등
 ```
 > 몇몇 태그를 제외한 대부분의 태그들은 `</ >`형태의 닫힘 태그를 작성해야 한다.
 
-# HTML
+<hr />
 
-## HTML 기본 태그
-HTML: 웹 사이트에서 눈에 보이는 정보(텍스트, 이미지 등)나 특정 구역을 설정할 때 사용하는 언어.([HTML Reference](https://www.w3schools.com/tags/default.asp))
+## HTML 태그의 상세
 
-> <TagName attributes="value"> Contents </TagName>
+### HTML 기본 태그
+HTML: HyperText Markup Language의 약어로, 웹 사이트에서 눈에 보이는 정보(텍스트, 이미지 등)나 특정 구역을 설정할 때 사용하는 언어.([HTML Reference](https://www.w3schools.com/tags/default.asp))
 
-### `<img>`
+> `<TagName attributes="value"> Contents </TagName>`
+
+#### 001. [`<img>`](https://www.w3schools.com/tags/tag_img.asp)
+정보성을 가진 이미지를 삽입하는 열린 태그이다.
 ```html
 <img src="path to image" alt="text" />
 ```
-정보성을 가진 이미지를 삽입하는 열린 태그이다.
 - `src`: 삽입할 이미지 파일의 경로
 - `alt`: 웹 사이트가 이미지를 출력하지 못한 경우 대체되는 텍스트(웹 접근성 고려)
 - `width`, `height`: 이미지의 크기를 설정
 
-### `<h>`
+#### 002. [`<h1> ~ <h6>`](https://www.w3schools.com/tags/tag_hn.asp)
+Heading의 약자로 제목이나 부제목을 표현하는 태그로, 숫자가 작을수록 중요한 정보를 가지고 있으며, 따라서 fontSize가 커진다.
 ```html
 <h1> Contents </h1>
 ```
-Heading의 약자로 제목이나 부제목을 표현하는 태그로, 숫자가 작을수록 중요한 정보를 가지고 있으며, 따라서 fontSize가 커진다.
 주로 `<h1>`은 가장 중요한 정보를 담으므로 하나의 HTML 문서에서 한 번만 사용된다. 따라서 기업의 웹사이트에서는 다음과 같이 활용된다.
 ```html
 <h1>
@@ -62,13 +64,14 @@ Heading의 약자로 제목이나 부제목을 표현하는 태그로, 숫자가
 </h1>
 ```
 
-### `<p>`
+#### 003. [`<p>`](https://www.w3schools.com/tags/tag_p.asp)
 ```html
 <p> Contents <p>
 ```
 Paragraph의 약자로 웹 사이트의 본문 내용, 중요 정보를 담을 때 활용하는 태그이다.
 
-### `<ul>`
+#### 004. [`<ul>`](https://www.w3schools.com/tags/tag_ul.asp)
+Unordered List의 약자로, 순서가 없는 리스트를 생성하는 태그이다. 보통 아래와 같이 메뉴 버튼을 만들 때 사용된다.
 ```html
 <ul>
   <li>menu 1</li>
@@ -76,7 +79,6 @@ Paragraph의 약자로 웹 사이트의 본문 내용, 중요 정보를 담을 �
   <li>menu 3</li>
 </ul>
 ```
-Unordered List의 약자로, 순서가 없는 리스트를 생성하는 태그이다. 보통 아래와 같이 메뉴 버튼을 만들 때 사용된다.
 ```html
 <ul>
   <li><a href="#">menu 1</a></li>
@@ -85,7 +87,8 @@ Unordered List의 약자로, 순서가 없는 리스트를 생성하는 태그�
 </ul>
 ```
 
-### `<ol>`
+#### 005. [`<ol>`](https://www.w3schools.com/tags/tag_ol.asp)
+Ordered List의 약자로, 순서가 존재하는 리스트를 생성하는 태그이다. 리스트 형식으로 표기된다.
 ```html
 <ol>
   <li>menu 1</li>
@@ -93,20 +96,20 @@ Unordered List의 약자로, 순서가 없는 리스트를 생성하는 태그�
   <li>menu 3</li>
 </ol>
 ```
-Ordered List의 약자로, 순서가 존재하는 리스트를 생성하는 태그이다. 리스트 형식으로 표기된다.
 
-### `<a>`
+#### 006. [`<a>`](https://www.w3schools.com/tags/tag_a.asp)
+Anchor의 약자로, 링크를 연결하는 태그이다. 기본값으로, 파란색 글씨와 밑줄이 부여된다.
 ```html
 <a href="path" target="how"> Contents </a>
 ```
-Anchor의 약자로, 링크를 연결하는 태그이다. 기본값으로, 파란색 글씨와 밑줄이 부여된다.
 - `href`: 연결할 주소
 - `target`: 해당 주소를 여는 방식 설정
 
-## 구조를 설정하는 태그
-이러한 구조를 설정하는 태그들은 대다수 HTML5에서 등장했기 때문에 `!Doctype`으로 선언된 HTML 문서에서만 활용할 수 있다.
+### 구조를 설정하는 태그
+이러한 구조를 설정하는 태그들은 대다수 `HTML5`에서 등장했기 때문에 [`!Doctype`](https://www.w3schools.com/tags/tag_doctype.asp)으로 선언된 HTML 문서에서만 활용할 수 있다.
 
-### `<header>`, `<nav>`
+#### 001. [`<header>`](https://www.w3schools.com/tags/tag_header.asp), [`<nav>`](https://www.w3schools.com/tags/tag_nav.asp)
+`<header>` 태그는 웹 사이트의 머리글을 담는 공간으로, 보통 가장 먼저 보여지는 것을 작업한다. 또한, 일반적으로 내부에 `<nav>` 태그(navigation)를 통해 메뉴 버튼을 담는 공간을 구성한다. 이때 주로 `<nav>` 태그 내에는 `<ul>`, `<li>`, `<a>` 태그들이 존재한다.
 ```html
 <header>
   <nav>
@@ -114,8 +117,6 @@ Anchor의 약자로, 링크를 연결하는 태그이다. 기본값으로, 파�
   </nav>
 </header>
 ```
-`<header>` 태그는 웹 사이트의 머리글을 담는 공간으로, 보통 가장 먼저 보여지는 것을 작업한다. 또한, 일반적으로 내부에 `<nav>` 태그(navigation)를 통해 메뉴 버튼을 담는 공간을 구성한다.
-이때 주로 `<nav>` 태그 내에는 `<ul>`, `<li>`, `<a>` 태그들이 존재한다.
 ```html
 <header>
   <img src="logo.png" alt="Logo" />
@@ -131,7 +132,9 @@ Anchor의 약자로, 링크를 연결하는 태그이다. 기본값으로, 파�
 </header>
 ```
 
-### `<main>`, `<article>`
+#### 002. [`<main>`](https://www.w3schools.com/tags/tag_main.asp), [`<article>`](https://www.w3schools.com/tags/tag_article.asp)
+`<main>` 태그는 문서의 주요 내용을 담는 태그로, IE는 미지원하므로 `role="main"` 속성을 필수적으로 입력해야 한다.<br />
+`<article>` 태그는 문서의 주요 이미지나 텍스트 등의 정보를 담고 구역을 설정하는 태그로, 태그 내 구역을 대표하는 타이틀 `<h1> ~ <h6>` 태그가 존재해야만 한다.(웹 표준)
 ```html
 <main role="main">
   <article>
@@ -143,10 +146,8 @@ Anchor의 약자로, 링크를 연결하는 태그이다. 기본값으로, 파�
   </article>
 </main>
 ```
-`<main>` 태그는 문서의 주요 내용을 담는 태그로, IE는 미지원하므로 `role="main"` 속성을 필수적으로 입력해야 한다.
-`<article>` 태그는 문서의 주요 이미지나 텍스트 등의 정보를 담고 구역을 설정하는 태그로, 태그 내 구역을 대표하는 타이틀 `<h1> ~ <h6>` 태그가 존재해야만 한다.(웹 표준)
 
-### `<footer>`
+#### 003. [`<footer>`](https://www.w3schools.com/tags/tag_footer.asp)
 `<footer>` 태그는 가장 하단에 들어가는 정보들을 표기할 때 사용하는 태그로, 아래와 같이 활용된다.
 ```html
 <footer>
@@ -162,44 +163,44 @@ Anchor의 약자로, 링크를 연결하는 태그이다. 기본값으로, 파�
 </footer>
 ```
 
-### `<div>`
+#### 004. [`<div>`](https://www.w3schools.com/tags/tag_div.asp)
 `<div>` 태그는 임의의 공간을 만들 때 사용하는 태그이다.
 
-## HTML 태그의 두 가지 성격
+### HTML 태그의 두 가지 성격
 Block Elements와 Inline Elements는 줄 바꿈 현상이 있는지, 공간에 대한 크기를 만들어낼 수 있는지, 수직적으로 배치 작업이 가능한지 여부에 따라 구분된다.
 
-### Block Elements
+#### Block Elements
 ```html
 <p>Hello World</p>
 <p>Hello World</p>
 <p>Hello World</p>
-```
-> Hello World
-> Hello World
-> Hello World
 
+> Hello World
+> Hello World
+> Hello World
+```
 Block Elements인 `<p>`, `<h1>` 등의 태그는 아래로 줄 바꿈되며 y축 정렬 형태로 출력된다. 따라서 공간을 만들 수 있어 `width`, `height` 속성을 설정할 수 있고, 수직적인 배치 작업이 가능하다.
 즉, 공간의 구성을 설정하는 태그들은 모두 Block Elements이다.
 
-### Inline Elements
+#### Inline Elements
 ```html
 <a>Hello World</a>
 <a>Hello World</a>
 <a>Hello World</a>
-```
+
 > Hello World Hello World Hello World
+```
 
 Inline Elements인 `<a>`, `<span>` 등의 태그는 한 줄로, 즉 x축 정렬 형태로 출력된다. 따라서 공간을 만들 수 없고, 수직적인 배치 작업이 불가능하다.
 
+<hr />
 
-# CSS
+## CSS
 
-## CSS 정의
-HTML로 작성된 문서를 꾸미기 위해 사용하며, 문서의 레이아웃과 스타일을 정의하는 언어.
-
+### CSS 정의
 Cascading Style Sheet의 약어로, 색상, 공간 크기, 레이아웃 배치 작업 등 웹 사이트에 대한 디자인을 담당하는 언어로, HTML로 작성된 정보를 꾸며준다.
 
-> Selector { Property : Value; }
+> `Selector { Property : Value; }`
 
 - Selector: 디자인을 적용할 HTML 영역으로 태그명, id 혹은 class 등으로 구성된다.
 - Property: `color`, `font-size`, `background-color` 등 어떤 디자인을 적용할 지를 정의한다.
@@ -216,13 +217,13 @@ h1 {
 }
 ```
 
-## CSS 적용 방식
-1. Inline Style Sheet
+### CSS 적용 방식
+1. **Inline Style Sheet**<br />
    HTML 문서 내부의 태그 안에 `style` 속성(Attributes)를 활용해 직접 원하는 스타일을 적용한다.
    ```html
    <h1 style="color: red;">Inline Style Sheet</h1>
    ```
-2. Internal Style Sheet
+2. **Internal Style Sheet**<br />
    HTML 문서 내부의 `<head>` 태그 내에 `<style>` 태그를 활용하여 원하는 스타일을 적용한다.
    ```html
    <head>
@@ -231,7 +232,7 @@ h1 {
      </style>
    </head>
    ```
-3. External Style Sheet
+3. **External Style Sheet**<br />
    HTML 문서 외부에 작성된 CSS 파일(확장자 `.css`)을 `<head>` 태그 내부에서 `<link>` 태그를 활용해 연결하여 원하는 스타일을 적용한다.
    ```html
    <head>
@@ -239,75 +240,27 @@ h1 {
    </head>
    ```
 
-HTML 문서와 CSS 문서가 따로 분리되어 관리할 수 있어 상대적으로 가독성이 높고 유지보수가 쉽기 때문에 External Style Sheet를 주로 활용한다.
+HTML 문서와 CSS 문서가 따로 분리되어 관리할 수 있어 상대적으로 가독성이 높고 유지보수가 쉽기 때문에 **External Style Sheet**를 주로 활용한다.
 
-**실습 06 | CSS 연동 방법**
-_index.html_
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>CSS 연동 방법</title>
-  <style>
-      h1 {color:red;}
-  </style>
-  <link rel="stylesheet" href="index.css">
-  
-</head>
-<body>
-
-  <h1 style="color:blue;">Hello world</h1>
-  
-</body>
-</html>
-```
-_index.css_
-```css
-h1 { background-color: yellow; }
-```
-
-## CSS Selector
+### CSS Selector
 HTML의 어떤 요소에 CSS를 적용할 것인지에 대한 규칙이다.
-1. Type Selector
+1. **Type Selector**<br />
    특정 태그에 스타일을 적용한다.
    ```css
    h2 { color: red; }
    ```
-2. Class Selector
+2. **Class Selector**<br />
    Class 이름을 가진 요소에 스타일을 적용한다.
    ```css
    .className { color: blue; }
    ```
-3. ID Selector
+3. **ID Selector**<br />
    ID를 가진 요소에 스타일을 적용한다.
    ```css
    #idName { color: green; }
    ```
 
-**실습 07 | CSS 선택자**
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>CSS 선택자</title>
-  <style>
-    h2 { color: red; }
-    .coding { color: green; }
-    #coding { color: yellow; }
-  </style>
-</head>
-<body>
-  <h2>Type Hello World</h2>
-  <h2 class="coding">Class Hello World</h2>
-  <h2 id="coding">Id Hello World</h2>
-</body>
-</html>
-```
-
-## CSS 부모 자식 관계
+### CSS 부모 자식 관계
 ```html
 <header>
   <h1>Header h1</h1>
@@ -319,7 +272,7 @@ HTML의 어떤 요소에 CSS를 적용할 것인지에 대한 규칙이다.
   <p>Footer p</p>
 </footer>
 ```
-위 예시에서 `<header>`와 `<h1>`, `<p>`는 부모 자식 관계이고, `<h1>`, `<p>`는 형제 관계이다. 이때 `<header>`에 적용된 CSS 스타일은 자식 관계에 있는 `<h1>`, `<p>`의 두 태그에도 상속된다.(참고 | 모든 속성이 상속되지는 아니한다. 또한, 다른 스타일이 직접 적용되는 경우 상속받은 스타일에 우선한다.)
+위 예시에서 `<header>`와 `<h1>`, `<p>`는 부모 자식 관계이고, `<h1>`, `<p>`는 형제 관계이다. 이때 `<header>`에 적용된 CSS 스타일은 자식 관계에 있는 `<h1>`, `<p>`의 두 태그에도 상속된다.(참고로, 모든 속성이 상속되지는 아니한다. 또한, 다른 스타일이 직접 적용되는 경우 상속받은 스타일에 우선한다.)
 
 또한, CSS를 적용할 때 원하는 지역의 해당 태그에만 스타일을 적용하기 위해 부모 태그를 공백으로 구분하여 구체적으로 표기할 수 있다.
 ```css
@@ -328,13 +281,11 @@ header h1 { color: blue; }
 header p { color: green; }
 ```
 
-**실습 08 | CSS 속성의 상속**
+### CSS 속성의 상속
 ```html
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>CSS 속성의 상속</title>
   <style>
     header h2 { color: blue; }
     header p { color: red; }
@@ -344,34 +295,34 @@ header p { color: green; }
 </head>
 <body>
   <header>
-    <h2>Header H2</h2>
-    <p>Header P</p>
+    <h2>Header H2</h2>      <!-- blue -->
+    <p>Header P</p>         <!-- red -->
   </header>
   <footer>
-    <h2>Footer H2</h2>
-    <p>Footer P</p>
+    <h2>Footer H2</h2>      <!-- black -->
+    <p>Footer P</p>         <!-- green -->
   </footer>
 </body>
 </html>
 ```
 
-## Cascading
+### Cascading
 > `!important` > HTML inline `style` > `id` > `class` or `pseudo-class` > `tagName` > 상속된 CSS
 
-CSS의 우선순위를 Cascading이라 부른다.
-1. 순서에 의한 Cascading
+CSS의 우선순위를 `Cascading`이라 부른다.
+1. 순서에 의한 Cascading<br/>
    나중에 적용된 CSS의 우선순위가 높다.
    ```css
    p { color: red; }
    p { color: blue; }
    ```
-2. 디테일에 의한 Cascading
+2. 디테일에 의한 Cascading<br/>
    더 구체적으로 작성된 선택자의 우선순위가 높다.
    ```css
    header p { color: red; }
    p { color: blue; }
    ```
-3. 선택자에 의한 Cascading
+3. 선택자에 의한 Cascading<br/>
    style 속성 > id > class > type 순으로 우선순위가 높다.
    ```html
    <h3 style="color: pink;" id="color" class="color">H3</h3>
@@ -382,33 +333,8 @@ CSS의 우선순위를 Cascading이라 부른다.
    h3 { color: green; }
    ```
 
-**실습 09 | CSS 우선순위**
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>CSS 우선 순위</title>
-  <style>
-    p { color: red; }
-    p { color: blue; }
-
-    h3 { background-color: red; }
-    header h3 { background-color: green; }
-  </style>
-</head>
-<body>
-  <p>순서 캐스케이딩</p>
-  <header>
-      <h3>디테일 캐스케이딩</h3>
-  </header>
-  <h4 style = "color:green;" id="color" class="color">선택자 캐스케이딩</h4>
-</body>
-</html>
-```
-
-## CSS 주요 속성
-1. `width`, `height`
+### CSS 주요 속성
+1. `width`, `height`<br/>
    선택한 요소의 너비와 높이를 설정하는 속성으로 고정값 `px`와 가변값 `%`(부모가 기준) 등의 단위를 활용한다.
    ```css
    div {
@@ -416,7 +342,7 @@ CSS의 우선순위를 Cascading이라 부른다.
      height: 50%;
    }
    ```
-2. `font`
+2. `font`<br/>
    글꼴에 대한 설정을 하는 속성이다.
    - `font-family`의 경우 입력한 대로 우선순위가 적용된다.
    - `font-weight`의 경우 `keyword` 혹은 `100 ~ 900`을 속성 값으로 갖는다.
@@ -428,7 +354,7 @@ CSS의 우선순위를 Cascading이라 부른다.
      font-weight: bold;
    }
    ```
-3. `border`
+3. `border`<br/>
    테두리에 대한 설정을 하는 속성이다.
    - `border-style`: 테두리 선의 종류를 설정(`solid`, `dotted` 등)
    - `border-width`: 테두리의 굵기를 설정
@@ -444,7 +370,7 @@ CSS의 우선순위를 Cascading이라 부른다.
      /* border: solid 10px red; */
    }
    ```
-4. `background`
+4. `background`<br/>
    특정 영역에서 배경에 대한 설정을 하는 속성이다.
    - `background-color`: 배경 색상을 설정
    - `background-image`: 배경 이미지를 설정
@@ -462,71 +388,11 @@ CSS의 우선순위를 Cascading이라 부른다.
    }
    ```
 
-**실습 10 | CSS 주요 속성**
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>CSS 주요 속성 1</title>
-  
-  <style>
-    .paragraph {
-      width: 500px;
-      height: 500px;
-      background-color: green;
-      font-size: 50px;
-      font-style: italic;
-      font-family: Times, Arial, sans-serif;
-    }
-  </style>
-  
-</head>
-<body>
-  
-  <h1 class="paragraph">Nice to meet you</h1>
-  
-</body>
-</html>
-```
-
-**실습 11 | CSS 주요 속성**
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>CSS 주요 속성 2</title>
-  
-  <style>
-    
-    .paragraph {
-      width: 500px;
-      height: 500px;
-      
-      font-size; 50px;
-      font-weight: bold;
-      font-style: italic;
-      font-family: Arial, times, sans-serif;
-      
-      border: solid 2px red;
-      background: yellow url(elice_logo.png) no-repeat center;
-    }
-    
-  </style>
-  
-</head>
-<body>
-  
-  <h1 class="paragraph">Nice to meet you</h1>
-  
-</body>
-</html>
-```
+<hr />
 
 ## 웹 사이트 레이아웃에 영향을 미치는 요소
-### Box Model
-![BoxModel](WEB/img/boxmodel.png)
+### [**Box Model**](https://www.w3schools.com/css/css_boxmodel.asp)
+![BoxModel](boxModel.png)<br/>
 `border`를 기준으로 외부 여백은 `margin`, 내부 여백은 `padding`이 된다.
 ```css
 div {
@@ -537,79 +403,16 @@ div {
 ```
 `padding`을 활용해 배치를 변경하는 경우, 전체 크기가 변할 수 있음에 유의해야 한다.
 
-**실습 01 | 박스 모델**
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>박스모델</title>
-  <style>
-    div {
-      width: 300px;
-      height: 300px;
-      background-color: yellow;
-      border: solid 10px red;
-      margin-left: 100px;
-      /* margin: 100px 0 0 100px */
-      padding-left: 100px;
-      /* padding: 0 0 0 100px */
-    }
-  </style>
-</head>
-<body>
-  <div>Hello World</div>
-</body>
-</html>
-```
-
-### Block & Inline
-1. Block Elements
+### **Block & Inline**
+1. Block Elements<br/>
    `<p>`, `<h1> ~ <h6>`, `<div>`, `<header>` 등의 태그와 같이 줄 바꿈 현상이 발생하고, `width`, `height` 값을 사용해 공간을 만들 수 있으며 `margin`, `padding` 값을 사용해 상하 배치 작업이 가능한 요소를 Block Element라고 한다.
-2. Inline Elements
+
+2. Inline Elements<br/>
    `<a>`, `<span>` 등의 태그와 같이 줄 바꿈 현상이 없고, `width`, `height` 값을 활용할 수 없으며, `margin-top`, `margin-bottom`, `padding-top`, `padding-bottom`을 활용할 수 없어 상하 배치 작업이 불가능한 요소를 Inline Elements라고 한다.
 
-**실습 02 | Block Elements & Inline Elements**
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Block 요소와 Inline 요소</title>
-  <style>
-    p {
-      width: 200px;
-      height: 200px;
-      background-color: yellow;
-      margin-top: 100px;
-    }
 
-    a {
-      width: 200px;
-      height: 200px;
-      background-color: pink;
-      margin-top: 100px;
-    }
-  </style>
-</head>
-<body>
-
-  <!-- Block 요소 -->
-  <p>Block 요소</p>
-  <p>Block 요소</p>
-  <p>Block 요소</p>
-  
-  <!-- Inline 요소 -->
-  <a href="#">Inline 요소</a>
-  <a href="#">Inline 요소</a>
-  <a href="#">Inline 요소</a>
-
-</body>
-</html>
-```
-
-### `margin` 병합 현상
-1. 형제지간의 `margin` 병합
+### **`margin` 병합 현상**
+1. 형제지간의 `margin` 병합<br/>
    ```html
    <div class="box1">1</div>
    <div class="box2">2</div>
@@ -619,7 +422,8 @@ div {
    .box2 { margin-top: 100px; }
    ```
    `margin-bottom`과 `margin-top` 중 더 큰 값으로 적용된다.
-2. 부모지간의 `margin` 병합
+
+2. 부모지간의 `margin` 병합<br/>
    ```html
    <main role="main">
      <article></article>
@@ -634,66 +438,21 @@ div {
    ```
    `<article>` 뿐만 아니라 부모인 `<main>`에도 영향을 미친다. 이때 `<article>`, 즉 자식 요소에 `position` 속성을 `absolute`로 설정하면 `margin` 병합을 해소할 수 있다.
 
-**실습 03 | `margin` 병합**
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>마진병합현상</title>
-  <style>
-    /* #box1 {
-      width: 100%;
-      height: 200px;
-      background-color: yellow;
-      margin-bottom: 150px;
-    }
-    #box2 {
-      width: 100%;
-      height: 200px;
-      background-color: pink;
-      margin-top: 100px;
-    }   */
-    main {
-      width: 100%;
-      height: 400px;
-      background-color: yellow;
-    }
-    article {
-      width: 100px;
-      height: 100px;
-      background-color: red;
-      margin-top: 100px;
-    }
-  </style>
-</head>
-<body>
-  <!-- 형제 지간에 발생하는 마진 병합 현상 -->
-  <div id="box1"></div>
-  <div id="box2"></div>
-  <!-- 부모 자식 지간에 발생하는 마진 병합 현상 -->
-  <main role="main">  
-    <article></article>
-  </main>
-</body>
-</html>
-```
-
-### 레이아웃에 영향을 미치는 속성
-1. `display`
+### **레이아웃에 영향을 미치는 속성**
+1. `display`<br/>
    Block Elements와 Inline Elements의 성격을 바꿀 때 사용한다. `inline-block`을 활용하면 두 요소의 성격을 모두 가질 수 있다.
    ```css
    p { display: inline; }
    a { display: block; }
    a { display: inline-block; }
    ```
-2. `float`
+2. `float`<br/>
    이름 그대로 요소를 띄워 새로운 레이어 층을 만드는 것이다. 이는 선택한 요소를 좌우측에서부터 정렬시키고자 할 때 사용한다. 즉, 연속적으로 `float`을 `left` 값을 부여하면 좌측 정렬이 된다. 다만, 부모 요소의 `width`에 따라 좌우측 정렬이 정해진다.(만약 두 자식 요소보다 너비가 작다면 레이아웃이 틀어지게 된다.)
    ```css
       .left { float: left; }
    .right { float: right; }
    ```
-3. `clear`
+3. `clear`<br/>
    `float`에 대한 속성을 제어하고자 할 때 사용한다. 이는 마지막으로 `float` 속성을 활용한 요소 이후의 요소에 삽입한다.
    ```html
    <header></header>
@@ -707,7 +466,7 @@ div {
    .right { float: right; }
    footer { clear: both; }
    ```
-4. 브라우저와 공간 사이의 공백 제거하기
+4. 브라우저와 공간 사이의 공백 제거하기<br/>
    기본적으로 `<html>`, `<body>` 태그는 `margin`, `padding`을 가지고 있어 초기화해주어야 한다.
    ```css
    html, body {
@@ -722,161 +481,3 @@ div {
      padding: 0;
    }
    ```
-
-**실습 04 | `display`**
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>레이아웃에 영향을 미치는 속성 : display</title>
-  <style>
-    p {
-      width: 300px;
-      height: 300px;
-      background-color: pink;
-      display: inline;
-    }
-    a {
-      width: 300px;
-      height: 300px;
-      background-color: yellow;
-      display: block;
-    }
-  </style>
-</head>
-<body>
-   <p>Block Element</p>
-   <p>Block Element</p>
-   <p>Block Element</p>
-   <a href="#">Inline Element</a>
-   <a href="#">Inline Element</a>
-   <a href="#">Inline Element</a>
-</body>
-</html>
-```
-
-**실습 05 | `float`**
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>레이아웃에 영향을 미치는 속성 - float</title>
-  <style>
-    /* .left {  
-      width: 300px;
-      height: 300px;
-      background-color: yellow;
-      float: left;
-    }
-    .right {
-      width: 300px;
-      height: 400px;
-      background-color: blue;
-      float: right;
-    } */
-    
-    header {
-      width: 100%;
-      height: 100px;
-      background-color: yellow;
-    }
-    #left {
-      width: 200px;
-      height: 200px;
-      background-color: red;
-      float: left;
-    }
-    main {
-      width: 300px;
-      height: 200px;
-      background-color: green;
-      float: left;
-    }
-    #right {
-      width: 200px;
-      height: 200px;
-      background-color: pink;
-      float: right;
-    }
-    footer {
-      width: 100%;
-      height: 100px;
-      background-color: black;
-    }
-   
-  </style>
-</head>
-<body>
-  <!-- <div class="left"></div>
-  <div class="right"></div> -->
-  <!-- 전통적인 웹사이트 레이아웃 구조 만들기 -->
-  
-  <header></header>
-  <article id="left"></article>
-  <main></main>
-  <article id="right"></article>
-  <footer></footer>
- 
-</body>
-</html>
-```
-
-**실습 06 | `clear`**
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>레이아웃에 영향을 미치는 속성 - clear</title>
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      width: 100%;
-      height: 100px;
-      background-color: yellow;
-    }
-    
-    #left {
-      float: left;
-      width: 200px;
-      height: 200px;
-      background-color: red;
-    }
-    
-    main {
-      float: left;
-      width: 300px;
-      height: 200px;
-      background-color: green;
-    }
-    
-    #right {
-      float: right;
-      width: 200px;
-      height: 200px;
-      background-color: pink;
-    }
-    
-    footer {
-      clear: both;
-      width: 100%;
-      height: 100px;
-      background-color: black;
-    }
-  </style>
-</head>
-<body>
-  <header></header>
-  <article id="left"></article>
-  <main role="main"></main>
-  <article id="right"></article>
-  <footer></footer>
-</body>
-</html>
-```

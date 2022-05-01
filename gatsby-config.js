@@ -1,9 +1,10 @@
 const metaConfig = require("./site-meta-config")
 
 module.exports = {
-  pathPrefix: "/hyoungqu23.github.io",
+  pathPrefix: "",
   siteMetadata: metaConfig,
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -46,7 +47,7 @@ module.exports = {
     // {
     //   resolve: `gatsby-plugin-google-analytics`,
     //   options: {
-    //     trackingId: `ADD YOUR TRACKING ID HERE`,
+    //     // trackingId: `ADD YOUR TRACKING ID HERE`,
     //   },
     // },
     {
@@ -120,5 +121,13 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+          trackingId: `G-NGG88GBZHL`,
+          head: true,
+      },
+    },
+    
   ],
 }

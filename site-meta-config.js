@@ -11,8 +11,8 @@ module.exports = {
   social: {
     github: `hyoungqu23@gmail.com`, // Your GitHub account
     medium: ``, // Your Medium account
-    facebook: ``, // Your Facebook account
-    linkedin: ``, // Your LinkedIn account
+    email: `hyoungqu23@gmail.com`,
+    linkedin: `linkedin.com/in/hyoung-min-lee-9b5489196`, // Your LinkedIn account
     instagram: `hyoungqu23`,
   },
   icon: `src/images/profile-pic.png`, // Add your favicon
@@ -33,6 +33,6 @@ module.exports = {
     `Develog`,
   ],
   comment: {
-    utterances: 'Ha-Young/my-blog-old', // Your repository for archive comment
+    utterances: 'HyoungMin', // Your repository for archive comment
   },
 }
